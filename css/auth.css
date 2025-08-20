@@ -1,0 +1,53 @@
+/* ------------- Reset & عامة ------------- */
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Tajawal',sans-serif}
+body{
+  background:linear-gradient(135deg,#11a30c,#bdc3db);
+  min-height:100vh;display:
+  flex;justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  direction:rtl
+}
+/* ------------- الحاويات ------------- */
+.auth-card{
+  background:#fff;padding:40px;
+  border-radius:12px;
+  box-shadow:0 8px 32px rgba(0,0,0,.1);
+  max-width:400px;width:90%;
+  text-align:center
+}
+.auth-card h2{color:#11a30c;
+  margin-bottom:20px}
+.logo-top img{width:200px;
+  margin-bottom:15px}
+/* ------------- عناصر النموذج ------------- */
+.input-group,.form-group{position:relative;margin-bottom:15px}
+.input-group input,.form-group input{
+  width:100%;padding:12px 40px 12px 12px;border:1px solid #ccc;border-radius:8px;font-size:14px
+}
+.input-group i,.form-group i{position:absolute;top:50%;transform:translateY(-50%);right:10px;color:#999;cursor:pointer}
+.user-type{display:flex;justify-content:center;gap:15px;margin:10px 0}
+.user-type label{font-size:14px}
+/* ------------- الأزرار والرابط ------------- */
+.btn-primary,.login-btn{
+  background:#4361ee;color:#fff;padding:12px;border:none;border-radius:8px;width:100%;font-size:16px;cursor:pointer;transition:.3s
+}
+.btn-primary:hover,.login-btn:hover{background:#11a30c}
+.link{font-size:14px;margin-top:10px}
+.link a{text-decoration:none;color:#11a30c}
+.link a:hover{color:#4cc9f0}
+.status-msg{margin-bottom:10px;font-size:14px}
+.status-msg.error{color:#d90429}
+.status-msg.success{color:#198754}
+
+.form-row {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.form-row .form-group {
+  flex: 1;
+  min-width: 45%;
+}
